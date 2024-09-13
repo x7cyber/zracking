@@ -8,6 +8,9 @@ git clone https://github.com/x7cyber/zracking
 cd zracking
 ```
 ```
+pip install zipfile
+```
+```
 python zrack.py
 ```
 #
