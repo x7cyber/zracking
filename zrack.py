@@ -9,8 +9,6 @@ This Tools is for educational purposes only. SD/SMP/SMA/S1/S2/S3+++
 
 Dan.. Tools ini hanya bisa melakukan serangan ke file .zip
 melakukan serangan ke ekstensi selain itu, ya gak bisa cik 😹
-install modul secara manual 'pip install zipfile'
-dah itu aja!
 '''
 
 import_rempah_rempah='masako'
@@ -44,14 +42,6 @@ import_daun_bawang=''
 import_kluwak=''
 import_bon_cabe=''
 
-
-try:
-    import zipfile
-except ImportError:
-    print('Bentar, lagi install nih...')
-    import pip
-    pip.main(['install', 'zipfile'])
-    import zipfile
 
 import time, os, sys
 from zipfile import ZipFile
